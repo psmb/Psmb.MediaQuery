@@ -31,7 +31,7 @@ class MediaQueryHelper implements ProtectedContextAwareInterface
 		}
 		/** @var Tag $tag */
 		$tag = $this->tagRepository->findOneByLabel($tagLabel);
-		return $this->imageRepository->findByTag($tag);
+		return $this->imageRepository->findByTag($tag)->toArray();
 	}
 
 	/**
