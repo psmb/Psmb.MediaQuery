@@ -1,0 +1,4 @@
+TYPO3:
+  TypoScript:
+    defaultContext:
+      'MediaQuery': 'Psmb\MediaQuery\Eel\MediaQueryHelper'

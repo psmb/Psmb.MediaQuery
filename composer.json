@@ -1,0 +1,18 @@
+{
+    "description": "Eel helpers to fetch media assets",
+    "type": "neos-package",
+    "name": "psmb/mediaquery",
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Psmb\\MediaQuery": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Psmb.MediaQuery"
+        }
+    }
+}
