@@ -1,7 +1,7 @@
 <?php
 namespace Psmb\MediaQuery\Eel;
 
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 use TYPO3\Eel\ProtectedContextAwareInterface;
 use TYPO3\Media\Domain\Model\Tag;
 use TYPO3\Media\Domain\Model\ImageInterface;
