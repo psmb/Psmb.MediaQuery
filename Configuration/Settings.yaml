@@ -1,4 +1,5 @@
-TYPO3:
-  TypoScript:
+
+Neos:
+  Fusion:
     defaultContext:
-      'MediaQuery': 'Psmb\MediaQuery\Eel\MediaQueryHelper'
+      MediaQuery: Psmb\MediaQuery\Eel\MediaQueryHelper
