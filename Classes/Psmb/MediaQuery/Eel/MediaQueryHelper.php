@@ -3,10 +3,10 @@ namespace Psmb\MediaQuery\Eel;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\Eel\ProtectedContextAwareInterface;
-use TYPO3\Media\Domain\Model\Tag;
-use TYPO3\Media\Domain\Model\ImageInterface;
-use TYPO3\Media\Domain\Repository\TagRepository;
-use TYPO3\Media\Domain\Repository\ImageRepository;
+use Neos\Media\Domain\Model\Tag;
+use Neos\Media\Domain\Model\ImageInterface;
+use Neos\Media\Domain\Repository\TagRepository;
+use Neos\Media\Domain\Repository\ImageRepository;
 
 class MediaQueryHelper implements ProtectedContextAwareInterface
 {
