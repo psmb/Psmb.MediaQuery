@@ -2,7 +2,7 @@
 namespace Psmb\MediaQuery\Eel;
 
 use Neos\Flow\Annotations as Flow;
-use TYPO3\Eel\ProtectedContextAwareInterface;
+use Neos\Eel\ProtectedContextAwareInterface;
 use TYPO3\Media\Domain\Model\Tag;
 use TYPO3\Media\Domain\Model\ImageInterface;
 use TYPO3\Media\Domain\Repository\TagRepository;
